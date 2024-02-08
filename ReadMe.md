@@ -6,9 +6,7 @@ This repository contains R scripts and data sets to help the reader follow the i
 Hereinafter are the different subfolders and their contents:
 
 
-**********************************************************************************************
-************************************ 1D Codes and Designs ************************************
-**********************************************************************************************
+## 1D Codes and Designs 
 
 - 1D Combined GP Simulation Designs.txt : the designs used for the 1D simulation.
 
@@ -21,14 +19,7 @@ Hereinafter are the different subfolders and their contents:
 - 1D Combined GP Two Families Public.R : a Bayesian convex combination of one Gaussian 
   process based on the Matern kernel and another one based on the Cubic Spline kernel.
 
-**********************************************************************************************
-
-
-
-
-**********************************************************************************************
-************************************ 2D Codes and Designs ************************************
-**********************************************************************************************
+## 2D Codes and Designs 
 
 - Training Designs: a folder containing the 100 size 14 LHDs used for the 2D 
   simulations whose results appear in the paper.
@@ -49,14 +40,7 @@ Hereinafter are the different subfolders and their contents:
 
 - maximin 100 pts.txt : a size 100 (JMP generated) maximin LHD, appears in the discussion.
 
-**********************************************************************************************
-
-
-
-
-**********************************************************************************************
-******************************** Batch Sequential ME Designs *********************************
-**********************************************************************************************
+## Batch Sequential ME Designs
 
 - Batch Sequential ME Design.R : the code for Section 7 in the paper. takes a first batch size
   14 ME design, draws a random sample from the posterior, re-estimates the paramters (be it
@@ -78,15 +62,8 @@ Hereinafter are the different subfolders and their contents:
   (left panel).
 
 - Plug-in ME 14 plus 7 Design.txt : the design appearing in the right panel of Figure 8.
-
-**********************************************************************************************
-
-
-
-
-**********************************************************************************************
-******************************** Ground Vibrations Emulator **********************************
-**********************************************************************************************
+  
+## Ground Vibrations Emulator
 
 - Combined GP Ground Vibrations.R : The code for fitting an isotropic Combined GP model to the
   9 dimensional data from the ground vibrations computer experiment described in
@@ -100,14 +77,7 @@ Hereinafter are the different subfolders and their contents:
 - Test Sets: a folder containing the remaining data (to a total of 200) for each of the 
   training sets.
 
-**********************************************************************************************
-
-
-
-
-**********************************************************************************************
-********************************** Heat Exchanger Emulator ***********************************
-**********************************************************************************************
+## Heat Exchanger Emulator 
 
 - Combined GP Heat Exchanger.R : the code for fitting an isotropic Combined GP model to the 4
   dimensional data from the heat exchanger computer experiment described in
@@ -123,5 +93,3 @@ Hereinafter are the different subfolders and their contents:
    within the unit 4 dimensional cube.
 
 - Qian Test Set.txt : the test set for the original experiment.
-
-**********************************************************************************************

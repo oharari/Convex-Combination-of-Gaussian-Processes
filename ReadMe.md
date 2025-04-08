@@ -1,10 +1,8 @@
 # Convex Combination of Gaussian Processes for Bayesian Analysis of Deterministic Computer Experiments
 
-This repository contains R scripts and data sets to help the reader follow the ideas and examples appearing in the [paper](https://drive.google.com/file/d/19rzOfv4Zwhyv-cIdWWo09OwXmszR-TNV/view?usp=drive_link) "Convex Combination of Gaussian Processes for Bayesian Analysis of Deterministic Computer Experiments" by Ofir Harari and David M. Steinberg (Tel Aviv University, 2013).
-
+This repository contains R scripts and data sets to help the reader follow the ideas and examples appearing in [our 2014 Technometrics paper](https://www.tandfonline.com/doi/abs/10.1080/00401706.2013.861629)(see [preprint](https://drive.google.com/file/d/19rzOfv4Zwhyv-cIdWWo09OwXmszR-TNV/view?usp=drive_link)).
 
 Hereinafter are the different subfolders and their contents:
-
 
 ## 1D Codes and Designs 
 
